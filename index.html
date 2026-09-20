@@ -28,6 +28,7 @@
                 <li><a href="#sovereignty" class="translate" data-key="nav_sovereignty">სუვერენიტეტი</a></li>
                 <li><a href="#regions" class="translate" data-key="nav_regions">კუთხეები და კერძები</a></li>
                 <li><a href="#wine" class="translate" data-key="nav_wine">ღვინო</a></li>
+                <li><a href="#gallery" class="translate" data-key="nav_gallery">გალერეა</a></li>
             </ul>
         </nav>
 
@@ -49,13 +50,32 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="translate" data-key="hero_title">აღმოაჩინე 8000-წლიანი ისტორიის ქვეყანა</h1>
-            <p class="translate" data-key="hero_sub">ევროპისა და აზიის გასაყარზე მდებარე უძველესი კულტურა და
-                დამოუკიდებელი ერი.</p>
-        </div>
-    </section>
+   <section class="hero">
+  <div class="hero-carousel">
+    <div class="hero-slide active">
+      <img src="https://images.unsplash.com/photo-1565008576549-57569a49371d?q=80&w=1600" alt="სურათი 1">
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1600" alt="სურათი 2">
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1600" alt="სურათი 3">
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1600" alt="სურათი 4">
+    </div>
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1 class="translate" data-key="hero_title">აღმოაჩინე 8000-წლიანი ისტორიის ქვეყანა</h1>
+    <p class="translate" data-key="hero_sub">ევროპისა და აზიის გასაყარზე მდებარე უძველესი კულტურა და დამოუკიდებელი ერი.</p>
+  </div>
+
+  <button class="hero-prev" id="heroPrev">&#10094;</button>
+  <button class="hero-next" id="heroNext">&#10095;</button>
+</section>
 
     <section id="alphabet" class="content-section">
         <h2 class="translate" data-key="alphabet_title">უნიკალური დამწერლობა</h2>
@@ -91,8 +111,7 @@
         <div class="cards-container">
 
             <div class="book-card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Knight_in_the_Panther%27s_Skin_1888.jpg/400px-Knight_in_the_Panther%27s_Skin_1888.jpg"
-                    alt="ვეფხისტყაოსანი">
+                <img src="img.video/ვეფხვისტყაოსანი.jpeg" alt="ვეფხისტყაოსანი" class="book-cover">
                 <h3 class="translate" data-key="lit_panther_title">„ვეფხისტყაოსანი“</h3>
                 <p class="author translate" data-key="lit_panther_author">შოთა რუსთაველი (XII ს.)</p>
                 <p class="translate" data-key="lit_panther_text">მსოფლიო ლიტერატურის შედევრი მეგობრობასა და სიყვარულზე.
@@ -100,8 +119,7 @@
             </div>
 
             <div class="book-card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Martyrdom_of_Saint_Shushanik.jpg/400px-Martyrdom_of_Saint_Shushanik.jpg"
-                    alt="შუშანიკის წამება">
+                <img src="img.video/SHUSHANIKI1.jpg" alt="შუშანიკის წამება" class="book-cover">
                 <h3 class="translate" data-key="lit_shushanik_title">„შუშანიკის წამება“</h3>
                 <p class="author translate" data-key="lit_shushanik_author">იაკობ ცურტაველი (V ს.)</p>
                 <p class="translate" data-key="lit_shushanik_text">უძველესი შემორჩენილი ქართული პროზაული ნაწარმოები.</p>
@@ -197,11 +215,11 @@
                 <h4 class="translate" data-key="trad_dishes">ტრადიციული კერძები:</h4>
                 <ul class="food-list">
                     <li><img src="images/lobiani.jpg" alt="ლობიანი" class="food-thumb"><span class="translate"
-                            data-key="racha_dish1">რაჭული ლობიანი</span></li>
+                            data-key="racha_dish1">ღვინო ხვანჭკარა</span></li>
                     <li><img src="img.video/შქმერული.jpg" alt="შქმერული" class="food-thumb"><span class="translate"
                             data-key="racha_dish2">შქმერული (სოფელ შქმერიდან)</span></li>
                     <li><img src="images/lori.jpg" alt="ქოთნის ლობიო" class="food-thumb"><span class="translate"
-                            data-key="racha_dish3">ქოთნის ლობიო რაჭული ლორით</span></li>
+                            data-key="racha_dish3">ლობიანი და ქოთნის ლობიო რაჭული ლორით</span></li>
                 </ul>
             </div>
 
@@ -215,7 +233,7 @@
                     <li><img src="images/honey-chadi.jpg" alt="თაფლი და ჭადი" class="food-thumb"><span class="translate"
                             data-key="lechkhumi_dish2">ლეჩხუმური თაფლი და ჭადი</span></li>
                     <li><img src="images/wine-grapes.jpg" alt="ღვინო" class="food-thumb"><span class="translate"
-                            data-key="lechkhumi_dish3">ხვანჭკარის/ოჯალეშის ზონის ღვინოები</span></li>
+                            data-key="lechkhumi_dish3">ოჯალეშის ზონის ღვინოები</span></li>
                 </ul>
             </div>
 
@@ -407,13 +425,300 @@
         </div>
     </section>
 
+    <section id="gallery">
+        <h2 class="translate  gallerytitle" data-key="gallery_title">ფოტოგალერეა</h2>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item wide">
+                <img src="img.video/ekaQuatateladze.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/ekaterine.qutateladze.3" target="_blank"
+                        rel="noopener">Ekaterine Qutateladze</a>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+
+                <img src="img.video/alaverdi.jpg" alt="ალავერდი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/ekaterine.qutateladze.3" target="_blank"
+                        rel="noopener">Ekaterine Qutateladze</a>
+                </div>
+            </div>
+
+            <div class="gallery-item tall">
+                <img src="img.video/ekaQutataeladze.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/ekaterine.qutateladze.3" target="_blank"
+                        rel="noopener">Ekaterine Qutateladze</a>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img.video/ekaQutateladze.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/ekaterine.qutateladze.3" target="_blank"
+                        rel="noopener">Ekaterine Qutateladze</a>
+                </div>
+            </div>
+
+            <div class="gallery-item big">
+                <img src="img.video/ekaQutateladze1.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/ekaterine.qutateladze.3" target="_blank"
+                        rel="noopener">Ekaterine Qutateladze</a>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img.video/EkaQutateladze5.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/ekaterine.qutateladze.3" target="_blank"
+                        rel="noopener">Ekaterine Qutateladze</a>
+                </div>
+            </div>
+
+            <div class="gallery-item wide">
+                <img src="img.video/ekaquTaTelaZe.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/ekaterine.qutateladze.3" target="_blank"
+                        rel="noopener">Ekaterine Qutateladze</a>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img.video/elaQutateladze.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/ekaterine.qutateladze.3" target="_blank"
+                        rel="noopener">Ekaterine Qutateladze</a>
+                </div>
+            </div>
+
+            <div class="gallery-item tall">
+                <img src="img.video/lana axalaiajpg.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/lana.axalaia.9" target="_blank" rel="noopener">Lana Axalaia</a>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img.video/lanaaxalaia.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/lana.axalaia.9" target="_blank" rel="noopener">Lana Axalaia</a>
+                </div>
+            </div>
+
+            <div class="gallery-item wide">
+                <img src="img.video/manglisininopapkiauri.jpg" alt="მანგლისი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/nino.papkiauri" target="_blank" rel="noopener">Nino
+                        Papkiauri</a>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img.video/mcxeTaninopapk.jpg" alt="მცხეთა" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/nino.papkiauri" target="_blank" rel="noopener">Nino
+                        Papkiauri</a>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img.video/ninipapk.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/nino.papkiauri" target="_blank" rel="noopener">Nino
+                        Papkiauri</a>
+                </div>
+            </div>
+
+            <div class="gallery-item big">
+                <img src="img.video/niniPapkiauri.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/nino.papkiauri" target="_blank" rel="noopener">Nino
+                        Papkiauri</a>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img.video/ninipapkin.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/nino.papkiauri" target="_blank" rel="noopener">Nino
+                        Papkiauri</a>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img.video/ninoPapkiauri1_n.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/nino.papkiauri" target="_blank" rel="noopener">Nino
+                        Papkiauri</a>
+                </div>
+            </div>
+
+            <div class="gallery-item wide">
+                <img src="img.video/ninoPapliauri.jpg" alt="ყაზბეგი" class="gallery-img">
+                <div class="author-credit">
+                    📸 <a href="https://www.facebook.com/nino.papkiauri" target="_blank" rel="noopener">Nino
+                        Papkiauri</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="videos-container">
+
+            <div class="video-card open-modal-btn"
+                data-video-src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2245814085828545%2F&show_text=false&width=267&t=0">
+
+                <div class="video-overlay"></div>
+
+                <iframe
+                    src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2245814085828545%2F&show_text=false&width=267&t=0"
+                    width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe>
+
+                <div class="video-info">
+                    <h3 class="translate" data-key="video1_title">ყაზბეგის ხედები</h3>
+                    <p>
+                        <span class="translate" data-key="video_author_label">🎥 ვიდეოს ავტორი:</span>
+                        <a href="https://www.facebook.com/misho.avsajanishvili.7" target="_blank" rel="noopener"
+                            onclick="event.stopPropagation();">
+                            Misho Avsajanishvili
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="video-card open-modal-btn"
+                data-video-src="https://www.youtube.com/embed/ZtJ_R03vOLU?autoplay=1">
+
+                <div class="video-overlay"></div>
+
+                <iframe width="267" height="476" src="https://www.youtube.com/embed/ZtJ_R03vOLU"
+                    title="Hotel Rosetta Kazbegi" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+
+                <div class="video-info">
+                    <h3 class="translate" data-key="video2_title">სასტუმროს ხედები</h3>
+                    <p>
+                        <span class="translate" data-key="video_author_label">🎥 ვიდეოს ავტორი:</span>
+                        <a href="https://www.youtube.com/shorts/ZtJ_R03vOLU" target="_blank" rel="noopener"
+                            onclick="event.stopPropagation();">
+                            @hotelrosetakazbegi
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="video-card open-modal-btn"
+                data-video-src="https://www.youtube.com/embed/RAqCRfIFoqE?autoplay=1">
+
+                <div class="video-overlay"></div>
+
+                <iframe width="267" height="476" src="https://www.youtube.com/embed/RAqCRfIFoqE"
+                    title="#travel #hotels #relax #mountains #горы #pieces #природа #nature #wanderful_places"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <div class="video-info">
+                    <h3 class="translate" data-key="video3_title">სასტუმროს ხედები</h3>
+                    <p>
+                        <span class="translate" data-key="video_author_label">🎥 ვიდეოს ავტორი:</span>
+                        <a href="https://www.youtube.com/shorts/ZtJ_R03vOLU" target="_blank" rel="noopener"
+                            onclick="event.stopPropagation();">
+                            @hotelrosetakazbegi
+                        </a>
+                    </p>
+                </div>
+            </div>
 
 
-    <div id="imageModal" class="modal">
+        </div>
+
+       <div id="videoModal" class="modal">
+    <div class="video-modal-content">
         <span class="close-modal">&times;</span>
-        <img class="modal-content" id="imgFull">
-        <div id="caption"></div>
+        <div class="iframe-container">
+            <iframe id="modalIframe" src="" frameborder="0"
+                allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
     </div>
+</div>
+    </section>
+
+
+
+   <div id="imageModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <div class="image-modal-container">
+        <img id="imgFull" src="" alt="">
+        <p id="caption"></p>
+    </div>
+</div>
+
+
+   <footer class="site-footer">
+    <div class="footer-container">
+        
+        <div class="footer-info">
+            <p class="footer-credit">
+                💻 <span class="translate" data-key="footer_created_by">დამზადებულია</span> 
+<span class="translate author-name" data-key="author_name">მარიამ ვახტანგაძის მიერ</span>
+            </p>
+            <p class="footer-subtitle translate" data-key="footer_subtitle">SMM & Web Development</p>
+        </div>
+
+        <div class="footer-links-group">
+            
+            <div class="footer-section">
+                <h4 class="translate" data-key="footer_personal">პირადი:</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/mari.keto.23/" target="_blank" rel="noopener">
+                        📷 Instagram
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100020912049903" target="_blank" rel="noopener">
+                        📘 Facebook
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="translate" data-key="footer_smm">SMM flow:</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/maka.smm.flow/" target="_blank" rel="noopener">
+                        🚀 Instagram (SMM)
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61591649526486" target="_blank" rel="noopener">
+                        💼 Facebook (SMM)
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section qr-section">
+                <h4 class="translate" data-key="footer_scan_me">დაასკანერე:</h4>
+                <div class="qr-code-box">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://meet-georgia.vercel.app/" 
+     alt="Website QR Code" 
+     width="100" 
+     height="100">
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2026 <span class="translate" data-key="footer_rights">ყველა უფლება დაცულია.</span></p>
+    </div>
+</footer>
 
     <script src="script.js"></script>
 </body>

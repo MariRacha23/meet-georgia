@@ -7,6 +7,7 @@ const translations = {
     nav_sovereignty: "სუვერენიტეტი",
     nav_regions: "კუთხეები და კერძები",
     nav_wine: "ღვინო",
+    nav_gallery: "გალერეა",
     hero_title: "აღმოაჩინე 8000-წლიანი ისტორიის ქვეყანა",
     hero_sub:
       "ევროპისა და აზიის გასაყარზე მდებარე უძველესი კულტურა და დამოუკიდებელი ერი.",
@@ -65,13 +66,13 @@ const translations = {
       "საქართველო შედგება 18 ისტორიულ-გეოგრაფიული კუთხისგან. თითოეულს აქვს თავისი უნიკალური დიალექტი და კულინარია, ხოლო სამეგრელოსა და სვანეთს — თავისი უძველესი ენებიც. სამწუხაროდ, 18 კუთხიდან 2 (აფხაზეთი და სამაჩაბლო/ცხინვალის რეგიონი) დღემდე რუსეთის მიერაა ოკუპირებული.",
     trad_dishes: "ტრადიციული კერძები:",
     racha_lang: "დიალექტი: რაჭული",
-    racha_dish1: "რაჭული ლობიანი",
+    racha_dish1: "ღვინო ხვანჭკარა",
     racha_dish2: "შქმერული (სოფელ შქმერიდან)",
-    racha_dish3: "ქოთნის ლობიო რაჭული ლორით",
+    racha_dish3: "ლობიანი და ქოთნის ლობიო რაჭული ლორით",
     lechkhumi_lang: "დიალექტი: ლეჩხუმური",
     lechkhumi_dish1: "ლეჩხუმური ლობიანი",
     lechkhumi_dish2: "ლეჩხუმური თაფლი და ჭადი",
-    lechkhumi_dish3: "ხვანჭკარის/ოჯალეშის ზონის ღვინოები",
+    lechkhumi_dish3: "ოჯალეშის ზონის ღვინოები",
     samegrelo_lang: "ენა: მეგრული",
     samegrelo_dish1: "ელარჯი",
     samegrelo_dish2: "ხარჩო (ნიგვზით)",
@@ -144,6 +145,19 @@ const translations = {
     mtianeti: "მთიანეთი",
     abkhazia: "აფხაზეთი",
     samachablo: "სამაჩაბლო",
+   video1_title: "ყაზბეგის ხედები",
+    video2_title: "სასტუმროს ხედები",
+    video3_title: "სასტუმროს ხედები",
+    video_author_label: "🎥 ვიდეოს ავტორი:",
+    footer_created_by: "დამზადებულია",
+footer_subtitle: "SMM & Web Development",
+footer_personal: "პირადი:",
+footer_smm: "SMM flow:",
+footer_scan_me: "დაასკანერე:",
+footer_rights: "ყველა უფლება დაცულია.",
+author_name: "მარიამ ვახტანგაძის მიერ",
+gallery_title: "გალერეა",
+
   },
   en: {
     nav_about: "About",
@@ -153,6 +167,7 @@ const translations = {
     nav_sovereignty: "Sovereignty",
     nav_regions: "Regions & Cuisine",
     nav_wine: "Wine",
+    nav_gallery: "Gallery",
     hero_title: "Discover a Nation with 8000 Years of History",
     hero_sub:
       "An ancient culture and independent nation located at the crossroads of Europe and Asia.",
@@ -172,11 +187,11 @@ const translations = {
     mkhedruli_date: "11th Century - Present",
     mkhedruli_text: "The modern Georgian script used today.",
     lit_title: "Masterpieces of Literature",
-    lit_panther_title: "“The Knight in the Panther's Skin”",
+    lit_panther_title: "„The Knight in the Panther's Skin“",
     lit_panther_author: "Shota Rustaveli (12th c.)",
     lit_panther_text:
       "A masterpiece of world literature about friendship and love.",
-    lit_shushanik_title: "“Martyrdom of Saint Shushanik”",
+    lit_shushanik_title: "„Martyrdom of Saint Shushanik“",
     lit_shushanik_author: "Iakob Tsurtaveli (5th c.)",
     lit_shushanik_text: "The oldest surviving Georgian prose work.",
     rel_title: "Christianity and Faith",
@@ -212,13 +227,13 @@ const translations = {
       "Georgia consists of 18 historical regions, each with unique dialects and cuisine (and distinct languages in Samegrelo and Svaneti). Unfortunately, 2 of these regions are currently occupied by Russia.",
     trad_dishes: "Traditional Dishes:",
     racha_lang: "Dialect: Rachian",
-    racha_dish1: "Rachian Lobiani",
+    racha_dish1: "Vine: Khvanchkara",
     racha_dish2: "Shkmeruli (Garlic Chicken)",
-    racha_dish3: "Clay-pot Beans with Rachian Ham",
+    racha_dish3: "Lobiani and Clay-pot Beans with Rachian Ham",
     lechkhumi_lang: "Dialect: Lechkhumian",
     lechkhumi_dish1: "Lechkhumian Lobiani",
     lechkhumi_dish2: "Local Honey & Cornbread (Chadi)",
-    lechkhumi_dish3: "Khvanchkara & Ojaleshi Wines",
+    lechkhumi_dish3: "Ojaleshi Wine",
     samegrelo_lang: "Language: Megrelian",
     samegrelo_dish1: "Elarji (Cornmeal with Cheese)",
     samegrelo_dish2: "Kharcho with Walnuts",
@@ -291,6 +306,18 @@ const translations = {
     mtianeti: "Mtianeti",
     abkhazia: "Abkhazia",
     samachablo: "Samachablo",
+   video1_title: "Views of Kazbegi",
+    video2_title: "Hotel Views",
+    video3_title: "Hotel Views",
+    video_author_label: "🎥 Video Author:",
+    footer_created_by: "Created by",
+footer_subtitle: "SMM & Web Development",
+footer_personal: "Personal:",
+footer_smm: "SMM flow:",
+footer_scan_me: "Scan Me:",
+footer_rights: "All rights reserved.",
+author_name: "Mariam Vakhtangadze",
+gallery_title: "Gallery",
   },
   fr: {
     nav_about: "À propos",
@@ -300,6 +327,7 @@ const translations = {
     nav_sovereignty: "Souveraineté",
     nav_regions: "Régions & Cuisine",
     nav_wine: "Vin",
+    nav_gallery: "Galerie",
     hero_title: "Découvrez une nation riche de 8000 ans d'histoire",
     hero_sub:
       "Une culture ancienne et une nation indépendante au carrefour de l'Europe et de l'Asie.",
@@ -319,11 +347,11 @@ const translations = {
     mkhedruli_date: "Du XIe siècle à aujourd'hui",
     mkhedruli_text: "L'alphabet géorgien moderne utilisé de nos jours.",
     lit_title: "Chefs-d'œuvre littéraires",
-    lit_panther_title: "« Le Chevalier à la peau de panthère »",
+    lit_panther_title: "„Le Chevalier à la peau de panthère“",
     lit_panther_author: "Chota Roustavéli (XIIe s.)",
     lit_panther_text:
       "Un chef-d'œuvre de la littérature mondiale sur l'amitié et l'amour.",
-    lit_shushanik_title: "« Le Martyre de Sainte Chouchanik »",
+    lit_shushanik_title: "„Le Martyre de Sainte Chouchanik“",
     lit_shushanik_author: "Iakob Tsourtaveli (Ve s.)",
     lit_shushanik_text: "Le plus ancien texte en prose géorgienne préservé.",
     rel_title: "Christianisme et Foi",
@@ -359,13 +387,13 @@ const translations = {
       "La Géorgie se compose de 18 régions historiques. Malheureusement, 2 d'entre elles sont occupées par la Russie.",
     trad_dishes: "Plats traditionnels :",
     racha_lang: "Dialecte : Ratchien",
-    racha_dish1: "Lobiani de Racha",
+    racha_dish1: "vin : Khvanchkara",
     racha_dish2: "Chkhmerouli (Poulet à l'ail)",
-    racha_dish3: "Haricots en pot de terre au jambon",
+    racha_dish3: "Lobiani et Haricots en pot de terre au jambon",
     lechkhumi_lang: "Dialecte : Lechkhoumien",
     lechkhumi_dish1: "Lobiani de Lechkhoumi",
     lechkhumi_dish2: "Miel local et Pain de maïs",
-    lechkhumi_dish3: "Vins Khvanchkara & Ojaleshi",
+    lechkhumi_dish3: "Vin Ojaleshi",
     samegrelo_lang: "Langue : Mingrélien",
     samegrelo_dish1: "Elarji",
     samegrelo_dish2: "Kharcho aux noix",
@@ -438,6 +466,18 @@ const translations = {
     mtianeti: "Mtianeti",
     abkhazia: "Abkhazia",
     samachablo: "Samachablo",
+   video1_title: "Vues de Kazbegi",
+    video2_title: "Vues de l'hôtel",
+    video3_title: "Vues de l'hôtel",
+    video_author_label: "🎥 Auteur de la vidéo :",
+    footer_created_by: "Créé par",
+footer_subtitle: "SMM & Développement Web",
+footer_personal: "Personnel :",
+footer_smm: "SMM flow :",
+footer_scan_me: "Scannez-moi :",
+footer_rights: "Tous droits réservés.",
+author_name: "Mariam Vakhtangadze",
+gallery_title: "Galerie",
   },
   de: {
     nav_about: "Über uns",
@@ -447,6 +487,7 @@ const translations = {
     nav_sovereignty: "Souveränität",
     nav_regions: "Regionen & Küche",
     nav_wine: "Wein",
+    nav_gallery: "Galerie",
     hero_title: "Entdecken Sie ein Land mit 8000 Jahren Geschichte",
     hero_sub:
       "Eine uralte Kultur und unabhängige Nation an der Schnittstelle von Europa und Asien.",
@@ -507,13 +548,13 @@ const translations = {
       "Georgien besteht aus 18 historischen Regionen. Leider sind 2 davon derzeit von Russland besetzt.",
     trad_dishes: "Traditionelle Gerichte:",
     racha_lang: "Dialekt: Ratschisch",
-    racha_dish1: "Ratschinisches Lobiani",
+    racha_dish1: "vin: Khvanchkara",
     racha_dish2: "Schkmeruli (Knoblauchhähnchen)",
-    racha_dish3: "Bohneneintopf mit Racha-Schinken",
+    racha_dish3: "Loobiani Bohneneintopf mit Racha-Schinken",
     lechkhumi_lang: "Dialekt: Letschchumisch",
     lechkhumi_dish1: "Letschchumisches Lobiani",
     lechkhumi_dish2: "Lokaler Honig & Maisbrot",
-    lechkhumi_dish3: "Khvanchkara & Ojaleshi Weine",
+    lechkhumi_dish3: " Ojaleshi Weine",
     samegrelo_lang: "Sprache: Mingrelisch",
     samegrelo_dish1: "Elarji",
     samegrelo_dish2: "Kharcho mit Walnüssen",
@@ -585,6 +626,19 @@ const translations = {
     mtianeti: "Mtianeti",
     abkhazia: "Abkhazia",
     samachablo: "Samachablo",
+    video1_title: "Blicke auf Kazbegi",
+    video2_title: "Hotel Blicke",
+    video3_title: "Hotel Blicke",
+    video_author_label: "🎥 Video-Autor:",
+    footer_created_by: "Erstellt von",
+footer_subtitle: "SMM & Webentwicklung",
+footer_personal: "Persönlich:",
+footer_smm: "SMM flow:",
+footer_scan_me: "Scannen Sie mich:",
+footer_rights: "Alle Rechte vorbehalten.",
+author_name: "Mariam Vakhtangadze",
+gallery_title: "Galerie",
+
   },
   es: {
     nav_about: "Acerca de",
@@ -594,6 +648,7 @@ const translations = {
     nav_sovereignty: "Soberanía",
     nav_regions: "Regiones y Gastronomía",
     nav_wine: "Vino",
+    nav_gallery: "Galería",
     hero_title: "Descubre una nación con 8000 años de historia",
     hero_sub:
       "Una cultura milenaria y nación independiente entre Europa y Asia.",
@@ -613,11 +668,11 @@ const translations = {
     mkhedruli_date: "Siglo XI - Presente",
     mkhedruli_text: "El alfabeto georgiano moderno utilizado hoy en día.",
     lit_title: "Obras Maestras de la Literatura",
-    lit_panther_title: "«El caballero de la piel de tigre»",
+    lit_panther_title: "„El caballero de la piel de tigre“",
     lit_panther_author: "Shota Rustaveli (S. XII)",
     lit_panther_text:
       "Una obra maestra de la literatura mundial sobre la amistad y el amor.",
-    lit_shushanik_title: "«El martirio de Santa Shushanik»",
+    lit_shushanik_title: "„El martirio de Santa Shushanik“",
     lit_shushanik_author: "Iakob Tsurtaveli (S. V)",
     lit_shushanik_text:
       "La obra en prosa georgiana más antigua que se conserva.",
@@ -654,13 +709,13 @@ const translations = {
       "Georgia consta de 18 regiones históricas. Desafortunadamente, 2 de ellas permanecen ocupadas por Rusia.",
     trad_dishes: "Platos tradicionales:",
     racha_lang: "Dialecto: Rachiano",
-    racha_dish1: "Lobiani de Racha",
+    racha_dish1: "vino: Khvanchkara",
     racha_dish2: "Shkmeruli (Pollo al ajo)",
-    racha_dish3: "Alubias en barro con jamón de Racha",
+    racha_dish3: "Lobiani y Alubias en barro con jamón de Racha",
     lechkhumi_lang: "Dialecto: Lechjumiano",
     lechkhumi_dish1: "Lobiani de Lechjumi",
     lechkhumi_dish2: "Miel local y Pan de maíz",
-    lechkhumi_dish3: "Vinos Khvanchkara y Ojaleshi",
+    lechkhumi_dish3: "Vino Ojaleshi",
     samegrelo_lang: "Idioma: Mingreliano",
     samegrelo_dish1: "Elarji",
     samegrelo_dish2: "Kharcho con nueces",
@@ -733,10 +788,25 @@ const translations = {
     mtianeti: "Mtianeti",
     abkhazia: "Abkhazia",
     samachablo: "Samachablo",
+   video1_title: "Vistas de Kazbegi",
+    video2_title: "Vistas del hotel",
+    video3_title: "Vistas del hotel",
+    video_author_label: "🎥 Autor del video:",
+    footer_created_by: "Creado por",
+footer_subtitle: "SMM & Desarrollo Web",
+footer_personal: "Personal:",
+footer_smm: "SMM flow:",
+footer_scan_me: "Escanéame:",
+footer_rights: "Todos los derechos reservados.",
+author_name: "Mariam Vakhtangadze",
+gallery_title: "Galería",
+
   },
 };
 
 function changeLanguage(lang) {
+  localStorage.setItem("selectedLang", lang);
+
   const elements = document.querySelectorAll(".translate");
   elements.forEach((element) => {
     const key = element.getAttribute("data-key");
@@ -744,7 +814,21 @@ function changeLanguage(lang) {
       element.textContent = translations[lang][key];
     }
   });
+
+  const activeOption = document.querySelector(`.lang-option[data-lang="${lang}"]`);
+  const selectedLangImg = document.querySelector(".selected-lang img"); 
+
+  if (activeOption && selectedLangImg) {
+    const activeFlagSrc = activeOption.querySelector("img").getAttribute("src");
+    selectedLangImg.src = activeFlagSrc;
+  }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const savedLang = localStorage.getItem("selectedLang") || "ka";
+  
+  changeLanguage(savedLang);
+});
 
 document.querySelectorAll(".lang-option").forEach((option) => {
   option.addEventListener("click", function () {
@@ -772,7 +856,6 @@ document.querySelectorAll(".lang-option").forEach((option) => {
     selectedLangImg.src = option.querySelector("img").src;
 
     changeLanguage(lang);
-    updateCardsLanguage(lang);
   });
 });
 
@@ -791,28 +874,72 @@ if (darkModeToggle) {
   });
 }
 
-const modal = document.getElementById("imageModal");
+const imageModal = document.getElementById("imageModal");
 const modalImg = document.getElementById("imgFull");
-const closeModal = document.querySelector(".close-modal");
+const captionText = document.getElementById("caption");
+const closeImageModalBtn = document.querySelector("#imageModal .close-modal");
 
-document.querySelectorAll(".food-thumb").forEach((img) => {
+document.querySelectorAll(".food-thumb, .gallery-img, .book-cover").forEach((img) => {
   img.addEventListener("click", function () {
-    if (modal && modalImg) {
-      modal.style.display = "block";
+    if (imageModal && modalImg) {
+      imageModal.classList.add("active");
       modalImg.src = this.src;
+      if (captionText && this.alt) {
+        captionText.textContent = this.alt;
+      }
     }
   });
 });
 
-if (closeModal) {
-  closeModal.addEventListener("click", function () {
-    modal.style.display = "none";
+function closeImageModal() {
+  if (imageModal) {
+    imageModal.classList.remove("active");
+  }
+}
+
+if (closeImageModalBtn) {
+  closeImageModalBtn.addEventListener("click", closeImageModal);
+}
+
+const videoModal = document.getElementById("videoModal");
+const modalIframe = document.getElementById("modalIframe");
+const closeVideoModalBtn = document.querySelector("#videoModal .close-modal");
+const videoCards = document.querySelectorAll(".open-modal-btn");
+
+videoCards.forEach((card) => {
+  card.addEventListener("click", () => {
+    const videoSrc = card.getAttribute("data-video-src");
+    if (videoModal && modalIframe && videoSrc) {
+      modalIframe.src = videoSrc;
+      videoModal.classList.add("active");
+    }
   });
+});
+
+function closeVideoModal() {
+  if (videoModal && modalIframe) {
+    videoModal.classList.remove("active");
+    modalIframe.src = ""; 
+  }
+}
+
+if (closeVideoModalBtn) {
+  closeVideoModalBtn.addEventListener("click", closeVideoModal);
 }
 
 window.addEventListener("click", function (event) {
-  if (event === modal) {
-    modal.style.display = "none";
+  if (event.target === imageModal) {
+    closeImageModal();
+  }
+  if (event.target === videoModal) {
+    closeVideoModal();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeImageModal();
+    closeVideoModal();
   }
 });
 
@@ -820,14 +947,66 @@ const burgerMenu = document.getElementById("burgerMenu");
 const navLinks = document.getElementById("navLinks");
 const navItems = document.querySelectorAll(".nav-links a");
 
-burgerMenu.addEventListener("click", () => {
-  burgerMenu.classList.toggle("active");
-  navLinks.classList.toggle("active");
-});
-
-navItems.forEach((item) => {
-  item.addEventListener("click", () => {
-    burgerMenu.classList.remove("active");
-    navLinks.classList.remove("active");
+if (burgerMenu && navLinks) {
+  burgerMenu.addEventListener("click", () => {
+    burgerMenu.classList.toggle("active");
+    navLinks.classList.toggle("active");
   });
-});
+
+  navItems.forEach((item) => {
+    item.addEventListener("click", () => {
+      burgerMenu.classList.remove("active");
+      navLinks.classList.remove("active");
+    });
+  });
+}
+
+
+const heroSlides = document.querySelectorAll(".hero-slide");
+const heroPrev = document.getElementById("heroPrev");
+const heroNext = document.getElementById("heroNext");
+
+let currentHeroSlide = 0;
+let heroInterval;
+
+function showHeroSlide(index) {
+  heroSlides.forEach((slide) => slide.classList.remove("active"));
+
+  if (index >= heroSlides.length) currentHeroSlide = 0;
+  else if (index < 0) currentHeroSlide = heroSlides.length - 1;
+  else currentHeroSlide = index;
+
+  heroSlides[currentHeroSlide].classList.add("active");
+}
+
+function nextHeroSlide() {
+  showHeroSlide(currentHeroSlide + 1);
+}
+
+function prevHeroSlide() {
+  showHeroSlide(currentHeroSlide - 1);
+}
+
+function startHeroAutoSlide() {
+  heroInterval = setInterval(nextHeroSlide, 4500); 
+}
+
+function stopHeroAutoSlide() {
+  clearInterval(heroInterval);
+}
+
+if (heroNext && heroPrev) {
+  heroNext.addEventListener("click", () => {
+    nextHeroSlide();
+    stopHeroAutoSlide();
+    startHeroAutoSlide();
+  });
+
+  heroPrev.addEventListener("click", () => {
+    prevHeroSlide();
+    stopHeroAutoSlide();
+    startHeroAutoSlide();
+  });
+}
+
+startHeroAutoSlide();
