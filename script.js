@@ -7,6 +7,7 @@ const translations = {
     nav_sovereignty: "სუვერენიტეტი",
     nav_regions: "კუთხეები და კერძები",
     nav_wine: "ღვინო",
+    nav_culture: "კულტურა",
     nav_gallery: "გალერეა",
     hero_title: "აღმოაჩინე 8000-წლიანი ისტორიის ქვეყანა",
     hero_sub:
@@ -145,19 +146,25 @@ const translations = {
     mtianeti: "მთიანეთი",
     abkhazia: "აფხაზეთი",
     samachablo: "სამაჩაბლო",
-   video1_title: "ყაზბეგის ხედები",
+    video1_title: "ყაზბეგის ხედები",
     video2_title: "სასტუმროს ხედები",
     video3_title: "სასტუმროს ხედები",
     video_author_label: "🎥 ვიდეოს ავტორი:",
     footer_created_by: "დამზადებულია",
-footer_subtitle: "SMM & Web Development",
-footer_personal: "პირადი:",
-footer_smm: "SMM flow:",
-footer_scan_me: "დაასკანერე:",
-footer_rights: "ყველა უფლება დაცულია.",
-author_name: "მარიამ ვახტანგაძის მიერ",
-gallery_title: "გალერეა",
-
+    footer_subtitle: "SMM & Web Development",
+    footer_personal: "პირადი:",
+    footer_smm: "SMM flow:",
+    footer_scan_me: "დაასკანერე:",
+    footer_rights: "ყველა უფლება დაცულია.",
+    author_name: "მარიამ ვახტანგაძის მიერ",
+    gallery_title: "გალერეა",
+    culture_title: "ქართული კულტურა, მუსიკა და ცეკვა",
+    culture_desc:
+      "ქართული კულტურა ათასწლეულების ისტორიას ითვლის. განსაკუთრებული ადგილი უკავია უნიკალურ მრავალხმიანობასა და ტემპერამენტიან ხალხურ ცეკვებს.",
+    polyphony_title: "🎶 ქართული მრავალხმიანობა",
+    polyphony_text:
+      "ქართული ხალხური მუსიკა ცნობილია თავისი უნიკალური პოლიფონიით (მრავალხმიანობით). 2001 წელს UNESCO-მ ქართული მრავალხმიანობა კაცობრიობის არამატერიალური კულტურული მემკვიდრეობის ძეგლად აღიარა.",
+    dances_title: "💃 ქართული ხალხური ცეკვები",
   },
   en: {
     nav_about: "About",
@@ -167,6 +174,7 @@ gallery_title: "გალერეა",
     nav_sovereignty: "Sovereignty",
     nav_regions: "Regions & Cuisine",
     nav_wine: "Wine",
+    nav_culture: "Culture",
     nav_gallery: "Gallery",
     hero_title: "Discover a Nation with 8000 Years of History",
     hero_sub:
@@ -306,18 +314,25 @@ gallery_title: "გალერეა",
     mtianeti: "Mtianeti",
     abkhazia: "Abkhazia",
     samachablo: "Samachablo",
-   video1_title: "Views of Kazbegi",
+    video1_title: "Views of Kazbegi",
     video2_title: "Hotel Views",
     video3_title: "Hotel Views",
     video_author_label: "🎥 Video Author:",
     footer_created_by: "Created by",
-footer_subtitle: "SMM & Web Development",
-footer_personal: "Personal:",
-footer_smm: "SMM flow:",
-footer_scan_me: "Scan Me:",
-footer_rights: "All rights reserved.",
-author_name: "Mariam Vakhtangadze",
-gallery_title: "Gallery",
+    footer_subtitle: "SMM & Web Development",
+    footer_personal: "Personal:",
+    footer_smm: "SMM flow:",
+    footer_scan_me: "Scan Me:",
+    footer_rights: "All rights reserved.",
+    author_name: "Mariam Vakhtangadze",
+    gallery_title: "Gallery",
+    culture_title: "Georgian Culture, Music & Dance",
+    culture_desc:
+      "Georgian culture spans thousands of years. A special place is held by unique polyphonic singing and expressive folk dances.",
+    polyphony_title: "🎶 Georgian Polyphony",
+    polyphony_text:
+      "Georgian folk music is world-renowned for its unique polyphony. In 2001, UNESCO recognized Georgian polyphonic singing as a masterpiece of Intangible Cultural Heritage of Humanity.",
+    dances_title: "💃 Georgian Folk Dances",
   },
   fr: {
     nav_about: "À propos",
@@ -327,6 +342,7 @@ gallery_title: "Gallery",
     nav_sovereignty: "Souveraineté",
     nav_regions: "Régions & Cuisine",
     nav_wine: "Vin",
+    nav_culture: "Culture",
     nav_gallery: "Galerie",
     hero_title: "Découvrez une nation riche de 8000 ans d'histoire",
     hero_sub:
@@ -466,18 +482,25 @@ gallery_title: "Gallery",
     mtianeti: "Mtianeti",
     abkhazia: "Abkhazia",
     samachablo: "Samachablo",
-   video1_title: "Vues de Kazbegi",
+    video1_title: "Vues de Kazbegi",
     video2_title: "Vues de l'hôtel",
     video3_title: "Vues de l'hôtel",
     video_author_label: "🎥 Auteur de la vidéo :",
     footer_created_by: "Créé par",
-footer_subtitle: "SMM & Développement Web",
-footer_personal: "Personnel :",
-footer_smm: "SMM flow :",
-footer_scan_me: "Scannez-moi :",
-footer_rights: "Tous droits réservés.",
-author_name: "Mariam Vakhtangadze",
-gallery_title: "Galerie",
+    footer_subtitle: "SMM & Développement Web",
+    footer_personal: "Personnel :",
+    footer_smm: "SMM flow :",
+    footer_scan_me: "Scannez-moi :",
+    footer_rights: "Tous droits réservés.",
+    author_name: "Mariam Vakhtangadze",
+    gallery_title: "Galerie",
+    culture_title: "Culture, musique et danse géorgiennes",
+    culture_desc:
+      "La culture géorgienne a une histoire millénaire. Une place particulière est occupée par la polyphonie unique et les danses folkloriques passionnées.",
+    polyphony_title: "🎶 Polyphonie géorgienne",
+    polyphony_text:
+      "La musique folklorique géorgienne est célèbre pour sa polyphonie unique. En 2001, l'UNESCO a reconnu le chant polyphonique géorgien comme chef-d'œuvre du patrimoine culturel immatériel de l'humanité.",
+    dances_title: "💃 Danses traditionnelles géorgiennes",
   },
   de: {
     nav_about: "Über uns",
@@ -487,6 +510,7 @@ gallery_title: "Galerie",
     nav_sovereignty: "Souveränität",
     nav_regions: "Regionen & Küche",
     nav_wine: "Wein",
+    nav_culture: "Kultur",
     nav_gallery: "Galerie",
     hero_title: "Entdecken Sie ein Land mit 8000 Jahren Geschichte",
     hero_sub:
@@ -631,14 +655,20 @@ gallery_title: "Galerie",
     video3_title: "Hotel Blicke",
     video_author_label: "🎥 Video-Autor:",
     footer_created_by: "Erstellt von",
-footer_subtitle: "SMM & Webentwicklung",
-footer_personal: "Persönlich:",
-footer_smm: "SMM flow:",
-footer_scan_me: "Scannen Sie mich:",
-footer_rights: "Alle Rechte vorbehalten.",
-author_name: "Mariam Vakhtangadze",
-gallery_title: "Galerie",
-
+    footer_subtitle: "SMM & Webentwicklung",
+    footer_personal: "Persönlich:",
+    footer_smm: "SMM flow:",
+    footer_scan_me: "Scannen Sie mich:",
+    footer_rights: "Alle Rechte vorbehalten.",
+    author_name: "Mariam Vakhtangadze",
+    gallery_title: "Galerie",
+    culture_title: "Georgische Kultur, Musik & Tanz",
+    culture_desc:
+      "Die georgische Kultur blickt auf eine jahrtausendealte Geschichte zurück. Ein besonderer Platz gebührt dem einzigartigen mehrstimmigen Gesang und den feurigen Volkstänzen.",
+    polyphony_title: "🎶 Georgische Mehrstimmigkeit",
+    polyphony_text:
+      "Die georgische Volksmusik ist bekannt für ihre einzigartige Polyphonie. Im Jahr 2001 erkannte die UNESCO den georgischen mehrstimmigen Gesang als Meisterwerk des immateriellen Kulturerbes der Menschheit an.",
+    dances_title: "💃 Georgische Volkstänze",
   },
   es: {
     nav_about: "Acerca de",
@@ -648,6 +678,7 @@ gallery_title: "Galerie",
     nav_sovereignty: "Soberanía",
     nav_regions: "Regiones y Gastronomía",
     nav_wine: "Vino",
+    nav_culture: "Cultura",
     nav_gallery: "Galería",
     hero_title: "Descubre una nación con 8000 años de historia",
     hero_sub:
@@ -788,19 +819,25 @@ gallery_title: "Galerie",
     mtianeti: "Mtianeti",
     abkhazia: "Abkhazia",
     samachablo: "Samachablo",
-   video1_title: "Vistas de Kazbegi",
+    video1_title: "Vistas de Kazbegi",
     video2_title: "Vistas del hotel",
     video3_title: "Vistas del hotel",
     video_author_label: "🎥 Autor del video:",
     footer_created_by: "Creado por",
-footer_subtitle: "SMM & Desarrollo Web",
-footer_personal: "Personal:",
-footer_smm: "SMM flow:",
-footer_scan_me: "Escanéame:",
-footer_rights: "Todos los derechos reservados.",
-author_name: "Mariam Vakhtangadze",
-gallery_title: "Galería",
-
+    footer_subtitle: "SMM & Desarrollo Web",
+    footer_personal: "Personal:",
+    footer_smm: "SMM flow:",
+    footer_scan_me: "Escanéame:",
+    footer_rights: "Todos los derechos reservados.",
+    author_name: "Mariam Vakhtangadze",
+    gallery_title: "Galería",
+    culture_title: "Cultura, música y danza de Georgia",
+    culture_desc:
+      "La cultura georgiana tiene miles de años de historia. Un lugar especial lo ocupan la polifonía única y las apasionadas danzas folclóricas.",
+    polyphony_title: "🎶 Polifonía georgiana",
+    polyphony_text:
+      "La música folclórica georgiana es famosa por su polifonía única. En 2001, la UNESCO reconoció el canto polifónico georgiano como Obra Maestra del Patrimonio Cultural Inmaterial de la Humanidad.",
+    dances_title: "💃 Danzas tradicionales georgianas",
   },
 };
 
@@ -815,8 +852,10 @@ function changeLanguage(lang) {
     }
   });
 
-  const activeOption = document.querySelector(`.lang-option[data-lang="${lang}"]`);
-  const selectedLangImg = document.querySelector(".selected-lang img"); 
+  const activeOption = document.querySelector(
+    `.lang-option[data-lang="${lang}"]`,
+  );
+  const selectedLangImg = document.querySelector(".selected-lang img");
 
   if (activeOption && selectedLangImg) {
     const activeFlagSrc = activeOption.querySelector("img").getAttribute("src");
@@ -826,7 +865,7 @@ function changeLanguage(lang) {
 
 document.addEventListener("DOMContentLoaded", () => {
   const savedLang = localStorage.getItem("selectedLang") || "ka";
-  
+
   changeLanguage(savedLang);
 });
 
@@ -879,17 +918,19 @@ const modalImg = document.getElementById("imgFull");
 const captionText = document.getElementById("caption");
 const closeImageModalBtn = document.querySelector("#imageModal .close-modal");
 
-document.querySelectorAll(".food-thumb, .gallery-img, .book-cover").forEach((img) => {
-  img.addEventListener("click", function () {
-    if (imageModal && modalImg) {
-      imageModal.classList.add("active");
-      modalImg.src = this.src;
-      if (captionText && this.alt) {
-        captionText.textContent = this.alt;
+document
+  .querySelectorAll(".food-thumb, .gallery-img, .book-cover")
+  .forEach((img) => {
+    img.addEventListener("click", function () {
+      if (imageModal && modalImg) {
+        imageModal.classList.add("active");
+        modalImg.src = this.src;
+        if (captionText && this.alt) {
+          captionText.textContent = this.alt;
+        }
       }
-    }
+    });
   });
-});
 
 function closeImageModal() {
   if (imageModal) {
@@ -919,7 +960,7 @@ videoCards.forEach((card) => {
 function closeVideoModal() {
   if (videoModal && modalIframe) {
     videoModal.classList.remove("active");
-    modalIframe.src = ""; 
+    modalIframe.src = "";
   }
 }
 
@@ -961,7 +1002,6 @@ if (burgerMenu && navLinks) {
   });
 }
 
-
 const heroSlides = document.querySelectorAll(".hero-slide");
 const heroPrev = document.getElementById("heroPrev");
 const heroNext = document.getElementById("heroNext");
@@ -988,7 +1028,7 @@ function prevHeroSlide() {
 }
 
 function startHeroAutoSlide() {
-  heroInterval = setInterval(nextHeroSlide, 4500); 
+  heroInterval = setInterval(nextHeroSlide, 4500);
 }
 
 function stopHeroAutoSlide() {
