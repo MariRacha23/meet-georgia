@@ -917,20 +917,66 @@ const imageModal = document.getElementById("imageModal");
 const modalImg = document.getElementById("imgFull");
 const captionText = document.getElementById("caption");
 const closeImageModalBtn = document.querySelector("#imageModal .close-modal");
+const prevBtn = document.querySelector(".modal-prev");
+const nextBtn = document.querySelector(".modal-next");
 
-document
-  .querySelectorAll(".food-thumb, .gallery-img, .book-cover")
-  .forEach((img) => {
-    img.addEventListener("click", function () {
-      if (imageModal && modalImg) {
-        imageModal.classList.add("active");
-        modalImg.src = this.src;
-        if (captionText && this.alt) {
-          captionText.textContent = this.alt;
-        }
-      }
-    });
+const galleryImages = Array.from(
+  document.querySelectorAll(".food-thumb, .gallery-img, .book-cover, .qr-img")
+);
+
+let currentIndex = 0; 
+
+function updateModalImage(index) {
+  if (index < 0) {
+    currentIndex = galleryImages.length - 1; 
+  } else if (index >= galleryImages.length) {
+    currentIndex = 0; 
+  } else {
+    currentIndex = index;
+  }
+
+  const currentImg = galleryImages[currentIndex];
+  modalImg.src = currentImg.src;
+  
+  if (captionText) {
+    captionText.textContent = currentImg.alt || "";
+  }
+}
+
+galleryImages.forEach((img, index) => {
+  img.addEventListener("click", function () {
+    if (imageModal && modalImg) {
+      imageModal.classList.add("active");
+      updateModalImage(index);
+    }
   });
+});
+
+if (prevBtn) {
+  prevBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    updateModalImage(currentIndex - 1);
+  });
+}
+
+if (nextBtn) {
+  nextBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    updateModalImage(currentIndex + 1);
+  });
+}
+
+document.addEventListener("keydown", function (e) {
+  if (imageModal && imageModal.classList.contains("active")) {
+    if (e.key === "ArrowLeft") {
+      updateModalImage(currentIndex - 1);
+    } else if (e.key === "ArrowRight") {
+      updateModalImage(currentIndex + 1);
+    } else if (e.key === "Escape") {
+      closeImageModal();
+    }
+  }
+});
 
 function closeImageModal() {
   if (imageModal) {
