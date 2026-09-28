@@ -939,7 +939,13 @@ function updateModalImage(index) {
   modalImg.src = currentImg.src;
   
   if (captionText) {
-    captionText.textContent = currentImg.alt || "";
+    const linkUrl = currentImg.alt; 
+    
+    if (linkUrl && (linkUrl.startsWith("http://") || linkUrl.startsWith("https://"))) {
+      captionText.innerHTML = `📸 ავტორი: <a href="${linkUrl}" target="_blank" rel="noopener" style="color: #4da6ff; text-decoration: underline;">გადადი ავტორის გვერდზე</a>`;
+    } else {
+      captionText.textContent = linkUrl || "";
+    }
   }
 }
 
