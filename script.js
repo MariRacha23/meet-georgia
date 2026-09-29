@@ -921,27 +921,30 @@ const prevBtn = document.querySelector(".modal-prev");
 const nextBtn = document.querySelector(".modal-next");
 
 const galleryImages = Array.from(
-  document.querySelectorAll(".food-thumb, .gallery-img, .book-cover, .qr-img")
+  document.querySelectorAll(".food-thumb, .gallery-img, .book-cover, .qr-img"),
 );
 
-let currentIndex = 0; 
+let currentIndex = 0;
 
 function updateModalImage(index) {
   if (index < 0) {
-    currentIndex = galleryImages.length - 1; 
+    currentIndex = galleryImages.length - 1;
   } else if (index >= galleryImages.length) {
-    currentIndex = 0; 
+    currentIndex = 0;
   } else {
     currentIndex = index;
   }
 
   const currentImg = galleryImages[currentIndex];
   modalImg.src = currentImg.src;
-  
+
   if (captionText) {
-    const linkUrl = currentImg.alt; 
-    
-    if (linkUrl && (linkUrl.startsWith("http://") || linkUrl.startsWith("https://"))) {
+    const linkUrl = currentImg.alt;
+
+    if (
+      linkUrl &&
+      (linkUrl.startsWith("http://") || linkUrl.startsWith("https://"))
+    ) {
       captionText.innerHTML = `📸 ავტორი: <a href="${linkUrl}" target="_blank" rel="noopener" style="color: #4da6ff; text-decoration: underline;">გადადი ავტორის გვერდზე</a>`;
     } else {
       captionText.textContent = linkUrl || "";

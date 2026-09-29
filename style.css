@@ -715,7 +715,8 @@ body.dark-mode .qr-code-box {
     border-radius: 12px;
 }
 
-.modal-prev, .modal-next {
+.modal-prev,
+.modal-next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -732,11 +733,32 @@ body.dark-mode .qr-code-box {
     z-index: 1001;
 }
 
-.modal-prev { left: 20px; }
-.modal-next { right: 20px; }
+.modal-prev {
+    left: 20px;
+}
 
-.modal-prev:hover, .modal-next:hover {
+.modal-next {
+    right: 20px;
+}
+
+.modal-prev:hover,
+.modal-next:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.alphabet-image-container {
+    margin: 30px auto;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+.alphabet-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 
@@ -798,6 +820,18 @@ body.dark-mode .qr-code-box {
 
     .burger-menu.active .bar:nth-child(3) {
         transform: translateY(-9px) rotate(-45deg);
+    }
+}
+
+@media (max-width: 960px) {
+    .alphabet-image-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .alphabet-image-container img {
+        min-width: 650px;
+        width: auto;
     }
 }
 
