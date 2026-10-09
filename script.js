@@ -165,6 +165,7 @@ const translations = {
     polyphony_text:
       "ქართული ხალხური მუსიკა ცნობილია თავისი უნიკალური პოლიფონიით (მრავალხმიანობით). 2001 წელს UNESCO-მ ქართული მრავალხმიანობა კაცობრიობის არამატერიალური კულტურული მემკვიდრეობის ძეგლად აღიარა.",
     dances_title: "💃 ქართული ხალხური ცეკვები",
+    chakrulo_title: "🎶 ჩაკრულო"
   },
   en: {
     nav_about: "About",
@@ -333,6 +334,7 @@ const translations = {
     polyphony_text:
       "Georgian folk music is world-renowned for its unique polyphony. In 2001, UNESCO recognized Georgian polyphonic singing as a masterpiece of Intangible Cultural Heritage of Humanity.",
     dances_title: "💃 Georgian Folk Dances",
+    chakrulo_title: "🎶 Chakrulo"
   },
   fr: {
     nav_about: "À propos",
@@ -501,6 +503,7 @@ const translations = {
     polyphony_text:
       "La musique folklorique géorgienne est célèbre pour sa polyphonie unique. En 2001, l'UNESCO a reconnu le chant polyphonique géorgien comme chef-d'œuvre du patrimoine culturel immatériel de l'humanité.",
     dances_title: "💃 Danses traditionnelles géorgiennes",
+    chakrulo_title: "🎶 Chakrulo"
   },
   de: {
     nav_about: "Über uns",
@@ -669,6 +672,7 @@ const translations = {
     polyphony_text:
       "Die georgische Volksmusik ist bekannt für ihre einzigartige Polyphonie. Im Jahr 2001 erkannte die UNESCO den georgischen mehrstimmigen Gesang als Meisterwerk des immateriellen Kulturerbes der Menschheit an.",
     dances_title: "💃 Georgische Volkstänze",
+    chakrulo_title: "🎶 Chakrulo"
   },
   es: {
     nav_about: "Acerca de",
@@ -838,6 +842,7 @@ const translations = {
     polyphony_text:
       "La música folclórica georgiana es famosa por su polifonía única. En 2001, la UNESCO reconoció el canto polifónico georgiano como Obra Maestra del Patrimonio Cultural Inmaterial de la Humanidad.",
     dances_title: "💃 Danzas tradicionales georgianas",
+    chakrulo_title: "🎶 Chakrulo"
   },
 };
 
